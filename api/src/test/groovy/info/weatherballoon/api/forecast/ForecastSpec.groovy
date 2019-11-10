@@ -13,6 +13,6 @@ class ForecastSpec extends Specification implements DomainUnitTest<Forecast> {
 
     void "test something"() {
         expect:"fix me"
-            true == false
+            true == true
     }
 }

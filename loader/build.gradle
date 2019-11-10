@@ -1,0 +1,22 @@
+plugins {
+    id 'groovy'
+    id 'application'
+    //id 'codenarc'
+}
+
+group 'info.weatherballoon.forecasts'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:3.0.0-rc-1'
+    compile 'info.picocli:picocli-groovy:4.0.4'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+application {
+    mainClassName = 'ForecastLoader'
+}

@@ -10,3 +10,7 @@
 ### Postgres container
 
 Refer to the [dev-tools/postgis](dev-tools/postgis/README.md)
+
+## References
+
+* [Gradle: Creating Multi-project Builds](https://guides.gradle.org/creating-multi-project-builds/)
